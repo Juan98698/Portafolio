@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240" class="w-full h-full">
+  <defs>
+    <linearGradient id="gym-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="iron-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" />
+      <stop offset="50%" stop-color="#64748b" />
+      <stop offset="100%" stop-color="#334155" />
+    </linearGradient>
+    <linearGradient id="red-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="240" fill="url(#gym-bg)"/>
+  
+  <!-- Aura de fuerza central -->
+  <circle cx="200" cy="120" r="80" fill="#ef4444" opacity="0.1"/>
+  
+  <!-- Barra olímpica cromada -->
+  <rect x="50" y="114" width="300" height="12" rx="6" fill="#cbd5e1"/>
+  <rect x="140" y="112" width="120" height="16" rx="3" fill="#94a3b8" opacity="0.7"/>
+
+  <!-- Discos izquierdos -->
+  <rect x="75" y="55" width="18" height="130" rx="5" fill="url(#iron-grad)"/>
+  <rect x="97" y="65" width="18" height="110" rx="5" fill="url(#red-accent)"/>
+  <rect x="119" y="75" width="14" height="90" rx="4" fill="url(#iron-grad)"/>
+
+  <!-- Discos derechos -->
+  <rect x="267" y="75" width="14" height="90" rx="4" fill="url(#iron-grad)"/>
+  <rect x="285" y="65" width="18" height="110" rx="5" fill="url(#red-accent)"/>
+  <rect x="307" y="55" width="18" height="130" rx="5" fill="url(#iron-grad)"/>
+
+  <!-- Topes de seguridad -->
+  <rect x="65" y="105" width="10" height="30" rx="3" fill="#f8fafc"/>
+  <rect x="325" y="105" width="10" height="30" rx="3" fill="#f8fafc"/>
+</svg>

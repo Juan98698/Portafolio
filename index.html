@@ -64,7 +64,7 @@
           ¡Hola! Soy Juan Manuel
         </h1>
         <p class="text-slate-600 leading-relaxed max-w-xl">
-          Soy estudiante de ingenieria de sistemas en quinto semestre, actualmente me estoy
+          Soy estudiante de ingenieria de sistemas en quinto semestre en el ITM, actualmente me estoy
           en entrenamiento como coder de riwicon un enfoque en desarrollo fullstack. Actualmente estoy aprendiendo y
           aplicando
           estándares de HTML5, CSS y Tailwind CSS para crear código limpio y bien estructurado.
@@ -82,121 +82,241 @@
             Git & GitHub</li>
         </ul>
       </header>
+    </section>
 
+    <!-- SECCIÓN: Mis Proyectos -->
+    <section id="proyectos" aria-labelledby="titulo-proyectos" class="space-y-8">
+      <header class="space-y-2">
+        <h2 id="titulo-proyectos" class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
+          Mis Proyectos
+        </h2>
+        <p class="text-slate-600">
+          Proyectos prácticos desarrollados durante mi aprendizaje en desarrollo de software, aplicando buenas
+          prácticas
+          y estándares web.
+        </p>
+      </header>
 
-      <!-- SECCIÓN: Mis Proyectos -->
-      <section id="proyectos" aria-labelledby="titulo-proyectos" class="space-y-8">
-        <header class="space-y-2">
-          <h2 id="titulo-proyectos" class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
-            Mis Proyectos
-          </h2>
-          <p class="text-slate-600">
-            Proyectos prácticos desarrollados durante mi aprendizaje en desarrollo de software, aplicando buenas
-            prácticas
-            y estándares web.
-          </p>
-        </header>
+      <!-- Grid semántico usando lista y artículos independientes -->
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-6" role="list">
 
-        <!-- Grid semántico usando lista y artículos independientes -->
-        <ul class="grid grid-cols-1 md:grid-cols-2 gap-6" role="list">
+        <!-- Proyecto 1 -->
+        <li>
+          <article
+            class="h-full flex flex-col justify-between bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+            <header class="space-y-3">
+              <h3 class="text-xl font-bold text-slate-900">
+                Evolution Lab
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Plataforma web y PWA para prescripcion y planificacion de entrenamiento, valoraciones fisicas, planes
+                de
+                alimentacion y gesion de usuarios
+              </p>
+              <ul aria-label="Tecnologías del proyecto" class="flex flex-wrap gap-2 pt-1">
+                <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">TypeScript</li>
+                <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">CSS</li>
+                <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">PLpgSQL</li>
+              </ul>
+            </header>
 
-          <!-- Proyecto 1 -->
-          <li>
-            <article
-              class="h-full flex flex-col justify-between bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-              <header class="space-y-3">
-                <h3 class="text-xl font-bold text-slate-900">
-                  Evolution Lab
-                </h3>
-                <p class="text-slate-600 text-sm leading-relaxed">
-                  Plataforma web y PWA para prescripcion y planificacion de entrenamiento, valoraciones fisicas, planes
-                  de
-                  alimentacion y gesion de usuarios
-                </p>
-                <ul aria-label="Tecnologías del proyecto" class="flex flex-wrap gap-2 pt-1">
-                  <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">TypeScript</li>
-                  <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">CSS</li>
-                  <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">PLpgSQL</li>
-                </ul>
-              </header>
+            <footer class="pt-6 mt-auto flex flex-wrap items-center gap-3">
+              <!-- Enlace a GitHub Pages (Demo en vivo) -->
+              <a href="https://www.evolutionlab.fit" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-3.5 py-2 rounded-lg shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
+                aria-label="Ver demo en vivo de Evolution Lab en GitHub Pages (abre en una nueva pestaña)">
+                <svg aria-hidden="true" class="w-4 h-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                Ir al sitio web.
+              </a>
 
-              <footer class="pt-6 mt-auto flex flex-wrap items-center gap-3">
-                <!-- Enlace a GitHub Pages (Demo en vivo) -->
-                <a href="https://www.evolutionlab.fit" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-3.5 py-2 rounded-lg shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
-                  aria-label="Ver demo en vivo de Evolution Lab en GitHub Pages (abre en una nueva pestaña)">
-                  <svg aria-hidden="true" class="w-4 h-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                  Ir al sitio web.
-                </a>
+              <!-- Enlace al repositorio de GitHub -->
+              <a href="https://github.com/Juan98698/EvolutionLab3.0.git" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 border border-slate-300 px-3.5 py-2 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
+                aria-label="Ver código de Evolution Lab en GitHub (abre en una nueva pestaña)">
+                <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+                Código
+              </a>
+            </footer>
+          </article>
+        </li>
 
-                <!-- Enlace al repositorio de GitHub -->
-                <a href="https://github.com/Juan98698/EvolutionLab3.0.git" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 border border-slate-300 px-3.5 py-2 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
-                  aria-label="Ver código de Evolution Lab en GitHub (abre en una nueva pestaña)">
-                  <svg aria-hidden="true" class="w-4 h-4 fill-current" viewBox="0 0 24 24">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
-                  </svg>
-                  Código
-                </a>
-              </footer>
-            </article>
-          </li>
+        <!-- Proyecto 2 -->
+        <li>
+          <article
+            class="h-full flex flex-col justify-between bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
+            <header class="space-y-3">
+              <h3 class="text-xl font-bold text-slate-900">
+                Rueda Libre
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Página dedicada al alquiler de bicicletas y oferta de servicios como recorridos guiados, venta de
+                repuestos y acceserios de lujo, reparacion y mantenimiento de bicicletas.
+              </p>
+              <ul aria-label="Tecnologías del proyecto" class="flex flex-wrap gap-2 pt-1">
+                <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">HTML5</li>
+                <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">Tailwind CSS</li>
+                <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">Responsive</li>
+              </ul>
+            </header>
 
-          <!-- Proyecto 2 -->
-          <li>
-            <article
-              class="h-full flex flex-col justify-between bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
-              <header class="space-y-3">
-                <h3 class="text-xl font-bold text-slate-900">
-                  Rueda Libre
-                </h3>
-                <p class="text-slate-600 text-sm leading-relaxed">
-                  Página dedicada al alquiler de bicicletas y oferta de servicios como recorridos guiados, venta de
-                  repuestos y acceserios de lujo, reparacion y mantenimiento de bicicletas.
-                </p>
-                <ul aria-label="Tecnologías del proyecto" class="flex flex-wrap gap-2 pt-1">
-                  <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">HTML5</li>
-                  <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">Tailwind CSS</li>
-                  <li class="bg-slate-100 text-slate-700 text-xs font-medium px-2.5 py-1 rounded">Responsive</li>
-                </ul>
-              </header>
+            <footer class="pt-6 mt-auto flex flex-wrap items-center gap-3">
+              <!-- Enlace a GitHub Pages (Demo en vivo) -->
+              <a href="https://juan98698.github.io/rueda-libre/" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-3.5 py-2 rounded-lg shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
+                aria-label="Ver demo en vivo de Rueda Libre en GitHub Pages (abre en una nueva pestaña)">
+                <svg aria-hidden="true" class="w-4 h-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                Demo en vivo
+              </a>
 
-              <footer class="pt-6 mt-auto flex flex-wrap items-center gap-3">
-                <!-- Enlace a GitHub Pages (Demo en vivo) -->
-                <a href="https://juan98698.github.io/rueda-libre/" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 px-3.5 py-2 rounded-lg shadow-sm transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600"
-                  aria-label="Ver demo en vivo de Rueda Libre en GitHub Pages (abre en una nueva pestaña)">
-                  <svg aria-hidden="true" class="w-4 h-4 fill-none stroke-current stroke-2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                  </svg>
-                  Demo en vivo
-                </a>
+              <!-- Enlace al repositorio de GitHub -->
+              <a href="https://github.com/Juan98698/rueda-libre.git" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 border border-slate-300 px-3.5 py-2 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
+                aria-label="Ver código de Rueda Libre en GitHub (abre en una nueva pestaña)">
+                <svg aria-hidden="true" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+                Código
+              </a>
+            </footer>
+          </article>
+        </li>
 
-                <!-- Enlace al repositorio de GitHub -->
-                <a href="https://github.com/Juan98698/rueda-libre.git" target="_blank" rel="noopener noreferrer"
-                  class="inline-flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-700 hover:text-slate-900 bg-slate-50 hover:bg-slate-100 border border-slate-300 px-3.5 py-2 rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-500"
-                  aria-label="Ver código de Rueda Libre en GitHub (abre en una nueva pestaña)">
-                  <svg aria-hidden="true" class="w-5 h-5 fill-current" viewBox="0 0 24 24">
-                    <path fill-rule="evenodd" clip-rule="evenodd"
-                      d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
-                  </svg>
-                  Código
-                </a>
-              </footer>
-            </article>
-          </li>
+      </ul>
+    </section>
 
-        </ul>
-      </section>
+    <!-- SECCIÓN: Mis Hobbies -->
+    <section id="hobbies" aria-labelledby="titulo-hobbies" class="space-y-8">
+      <header class="space-y-2">
+        <h2 id="titulo-hobbies" class="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
+          Mis Hobbies e Intereses
+        </h2>
+        <p class="text-slate-600">
+          Lo que me apasiona en mis tiempos libres y me ayuda a mantener la disciplina, la motivación y el equilibrio
+          personal.
+        </p>
+      </header>
+
+      <!-- Grid semántico usando lista (ul) y tarjetas con figure sin divs innecesarios -->
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-6" role="list">
+
+        <!-- Hobby 1: Gym pesado -->
+        <li>
+          <figure
+            class="h-full bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition-shadow">
+            <img src="assets/img/hobby-gym.svg" alt="Barra olímpica con discos pesados para entrenamiento de fuerza"
+              class="w-full h-48 object-cover">
+            <figcaption class="p-5 flex-grow space-y-2">
+              <h3 class="text-lg font-bold text-slate-900">
+                Entrenar en el gimnasio
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Me gusta asistir al gimnasio y entrenar fuerza para estar en forma,
+                es mi habito para cultivar la disciplina, constancia y superar bloqueos mentales estar saludable.
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+
+        <!-- Hobby 2: Nuevas tecnologías y software -->
+        <li>
+          <figure
+            class="h-full bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition-shadow">
+            <img src="assets/img/hobby-coding.svg"
+              alt="Pantalla con código y sintaxis moderna de desarrollo de software" class="w-full h-48 object-cover">
+            <figcaption class="p-5 flex-grow space-y-2">
+              <h3 class="text-lg font-bold text-slate-900">
+                Estudiar nuevas tecnologías y crear software
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                En mis tiempos libres dedico al menos una hora al estudio de cosas que no entiendo,
+                aprender tecnologias nuevas de mi interes como la IA en su rama de machine learning
+                y entender e interiorizar las buenas practicas en patrones de diseño y arquitectura en software
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+
+        <!-- Hobby 3: Miradores de noche -->
+        <li>
+          <figure
+            class="h-full bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition-shadow">
+            <img src="assets/img/hobby-miradores.svg"
+              alt="Cielo estrellado de noche y luces panorámicas de la ciudad vistas desde un mirador"
+              class="w-full h-48 object-cover">
+            <figcaption class="p-5 flex-grow space-y-2">
+              <h3 class="text-lg font-bold text-slate-900">
+                Visitar miradores de noche
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Luego de una semana cargada de deberes y responsabilidades acostumbro a sacar el tiempo para disfrutar
+                de vistas
+                panorámicas nocturnas de la ciudad, el aire fresco y la tranquilidad del silencio en los distintos
+                miradores que hay
+                en medellin, esto me permite despejar la mente y reflexionar.
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+
+        <!-- Hobby 4: Cerveza helada el fin de semana -->
+        <li>
+          <figure
+            class="h-full bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex flex-col hover:shadow-md transition-shadow">
+            <img src="assets/img/hobby-cerveza.svg" alt="Jarra de cerveza helada y dorada con abundante espuma fría"
+              class="w-full h-48 object-cover">
+            <figcaption class="p-5 flex-grow space-y-2">
+              <h3 class="text-lg font-bold text-slate-900">
+                Una cerveza helada el fin de semana
+              </h3>
+              <p class="text-slate-600 text-sm leading-relaxed">
+                Una buena cerveza helada el fin de samana no cae mal, me permite relajarme, desconectarme de la rutina y
+                recargar energias,
+                sea en compañia o solo, una cerveza helada es el toque perfecto para cerrar la semana.
+              </p>
+            </figcaption>
+          </figure>
+        </li>
+
+      </ul>
+    </section>
 
   </main>
 
-  <footer class="bg-slate-900 text-slate-300 py-8 border-t border-slate-800 text-center">
+  <!-- Pie de página semántico y accesible -->
+  <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 mt-auto">
+    <nav aria-label="Enlaces del pie de página"
+      class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-6 text-sm">
+      <p class="text-slate-300 font-medium">
+        © 2026 Juan Manuel · <small class="text-slate-400 text-xs">Estudiante de Ingeniería &amp; Coder
+          Fullstack</small>
+      </p>
+
+      <ul class="flex items-center gap-6">
+        <li>
+          <a href="https://github.com/Juan98698" target="_blank" rel="noopener noreferrer"
+            class="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-blue-500 rounded px-1.5 py-0.5"
+            aria-label="Perfil de Juan Manuel en GitHub (abre en una nueva pestaña)">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a href="#contenido-principal"
+            class="hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-slate-900 focus:ring-blue-500 rounded px-1.5 py-0.5">
+            Volver arriba ↑
+          </a>
+        </li>
+      </ul>
+    </nav>
   </footer>
 
 </body>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240" class="w-full h-full">
+  <defs>
+    <linearGradient id="code-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1e38" />
+    </linearGradient>
+    <linearGradient id="screen-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="240" fill="url(#code-bg)"/>
+  
+  <!-- Ventana de editor de código -->
+  <rect x="80" y="38" width="240" height="150" rx="8" fill="url(#screen-grad)" stroke="#334155" stroke-width="2"/>
+  
+  <!-- Barra superior con botones de ventana -->
+  <path d="M 80 46 Q 80 38 88 38 L 312 38 Q 320 38 320 46 L 320 60 L 80 60 Z" fill="#1e293b"/>
+  <circle cx="98" cy="49" r="4" fill="#ef4444"/>
+  <circle cx="112" cy="49" r="4" fill="#f59e0b"/>
+  <circle cx="126" cy="49" r="4" fill="#10b981"/>
+
+  <!-- Líneas de código con sintaxis colorida -->
+  <rect x="102" y="75" width="45" height="7" rx="3.5" fill="#38bdf8"/>
+  <rect x="153" y="75" width="75" height="7" rx="3.5" fill="#818cf8"/>
+  
+  <rect x="118" y="93" width="95" height="7" rx="3.5" fill="#34d399"/>
+  <rect x="219" y="93" width="45" height="7" rx="3.5" fill="#f472b6"/>
+
+  <rect x="118" y="111" width="65" height="7" rx="3.5" fill="#fbbf24"/>
+  <rect x="189" y="111" width="55" height="7" rx="3.5" fill="#38bdf8"/>
+  
+  <rect x="134" y="129" width="80" height="7" rx="3.5" fill="#a78bfa"/>
+
+  <rect x="102" y="147" width="50" height="7" rx="3.5" fill="#38bdf8"/>
+  <rect x="158" y="147" width="30" height="7" rx="3.5" fill="#f43f5e"/>
+
+  <!-- Cursor titilante de terminal -->
+  <rect x="194" y="147" width="8" height="7" rx="1" fill="#38bdf8"/>
+
+  <!-- Base del portátil -->
+  <path d="M 60 188 L 340 188 L 326 200 L 74 200 Z" fill="#475569"/>
+  <rect x="175" y="188" width="50" height="4" rx="2" fill="#94a3b8"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240" class="w-full h-full">
+  <defs>
+    <linearGradient id="beer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1917" />
+      <stop offset="100%" stop-color="#0c0a09" />
+    </linearGradient>
+    <linearGradient id="liquid-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="60%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="glass-reflect" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="240" fill="url(#beer-bg)"/>
+
+  <!-- Halo cálido -->
+  <circle cx="200" cy="120" r="80" fill="#f59e0b" opacity="0.12"/>
+
+  <!-- Asa gruesa de la jarra -->
+  <path d="M 235 90 C 285 90, 285 170, 235 170" fill="none" stroke="#e2e8f0" stroke-width="14" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 235 90 C 275 90, 275 170, 235 170" fill="none" stroke="#94a3b8" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Cuerpo de la cerveza dorada -->
+  <rect x="150" y="75" width="95" height="115" rx="12" fill="url(#liquid-grad)"/>
+
+  <!-- Burbujas ascendentes -->
+  <circle cx="168" cy="165" r="2.5" fill="#fef3c7" opacity="0.8"/>
+  <circle cx="185" cy="140" r="3" fill="#fef3c7" opacity="0.9"/>
+  <circle cx="172" cy="110" r="2" fill="#fef3c7" opacity="0.7"/>
+  <circle cx="225" cy="155" r="2.5" fill="#fef3c7" opacity="0.85"/>
+  <circle cx="210" cy="125" r="3.5" fill="#fef3c7" opacity="0.9"/>
+  <circle cx="230" cy="100" r="2" fill="#fef3c7" opacity="0.75"/>
+  <circle cx="195" cy="85" r="2.5" fill="#fef3c7" opacity="0.8"/>
+
+  <!-- Espuma fría cremosa -->
+  <rect x="142" y="58" width="112" height="25" rx="12" fill="#ffffff"/>
+  <circle cx="150" cy="60" r="15" fill="#ffffff"/>
+  <circle cx="172" cy="52" r="17" fill="#ffffff"/>
+  <circle cx="198" cy="48" r="19" fill="#ffffff"/>
+  <circle cx="225" cy="53" r="17" fill="#ffffff"/>
+  <circle cx="246" cy="62" r="14" fill="#ffffff"/>
+
+  <!-- Gotas de espuma cayendo por el vidrio -->
+  <path d="M 158 76 Q 161 93 158 95 Q 155 93 158 76 Z" fill="#ffffff"/>
+  <path d="M 230 76 Q 233 88 230 90 Q 227 88 230 76 Z" fill="#ffffff"/>
+
+  <!-- Brillo del vidrio -->
+  <rect x="150" y="75" width="95" height="115" rx="12" fill="url(#glass-reflect)"/>
+  <line x1="165" y1="80" x2="165" y2="180" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- Base sólida de vidrio -->
+  <rect x="144" y="190" width="107" height="10" rx="5" fill="#cbd5e1" opacity="0.85"/>
+
+  <!-- Gotas de condensación helada exterior -->
+  <circle cx="135" cy="115" r="2.5" fill="#38bdf8" opacity="0.7"/>
+  <circle cx="265" cy="140" r="2" fill="#38bdf8" opacity="0.8"/>
+  <circle cx="138" cy="155" r="2" fill="#38bdf8" opacity="0.6"/>
+</svg>

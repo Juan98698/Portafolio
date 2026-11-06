@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240" class="w-full h-full">
+  <defs>
+    <linearGradient id="night-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="60%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e1b4b" />
+    </linearGradient>
+    <radialGradient id="moon-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#fef08a" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="240" fill="url(#night-sky)"/>
+
+  <!-- Luna y halo luminoso -->
+  <circle cx="315" cy="60" r="34" fill="url(#moon-glow)"/>
+  <circle cx="315" cy="60" r="19" fill="#fef08a"/>
+  <circle cx="322" cy="56" r="17" fill="#0f172a"/>
+
+  <!-- Estrellas en el cielo nocturno -->
+  <circle cx="50" cy="35" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="110" cy="50" r="2" fill="#ffffff" opacity="0.95"/>
+  <circle cx="175" cy="30" r="1.5" fill="#ffffff" opacity="0.7"/>
+  <circle cx="230" cy="55" r="2" fill="#ffffff" opacity="0.85"/>
+  <circle cx="75" cy="80" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="150" cy="85" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="365" cy="40" r="1.5" fill="#ffffff" opacity="0.75"/>
+  <circle cx="270" cy="90" r="1.5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Montañas de fondo -->
+  <path d="M 0 160 Q 110 120 220 150 T 400 140 L 400 240 L 0 240 Z" fill="#0b0f19" opacity="0.8"/>
+
+  <!-- Silueta de la ciudad en la distancia -->
+  <path d="M 30 170 L 45 170 L 45 155 L 60 155 L 60 170 L 90 170 L 90 145 L 105 145 L 105 170 L 150 170 L 150 150 L 165 150 L 165 170 L 220 170 L 220 140 L 235 140 L 235 170 L 290 170 L 290 155 L 305 155 L 305 170 L 370 170 L 370 240 L 30 240 Z" fill="#030712"/>
+  
+  <!-- Luces de la ciudad -->
+  <circle cx="52" cy="160" r="1.8" fill="#fbbf24"/>
+  <circle cx="97" cy="152" r="1.8" fill="#38bdf8"/>
+  <circle cx="157" cy="158" r="1.8" fill="#fbbf24"/>
+  <circle cx="227" cy="148" r="1.8" fill="#f43f5e"/>
+  <circle cx="297" cy="162" r="1.8" fill="#fbbf24"/>
+  <circle cx="130" cy="165" r="1.5" fill="#38bdf8"/>
+  <circle cx="190" cy="164" r="1.5" fill="#fef08a"/>
+  <circle cx="260" cy="166" r="1.5" fill="#fef08a"/>
+  <circle cx="330" cy="168" r="1.5" fill="#38bdf8"/>
+
+  <!-- Baranda del mirador en primer plano -->
+  <rect x="0" y="195" width="400" height="5" fill="#64748b"/>
+  <line x1="40" y1="195" x2="40" y2="240" stroke="#64748b" stroke-width="4"/>
+  <line x1="120" y1="195" x2="120" y2="240" stroke="#64748b" stroke-width="4"/>
+  <line x1="200" y1="195" x2="200" y2="240" stroke="#64748b" stroke-width="4"/>
+  <line x1="280" y1="195" x2="280" y2="240" stroke="#64748b" stroke-width="4"/>
+  <line x1="360" y1="195" x2="360" y2="240" stroke="#64748b" stroke-width="4"/>
+</svg>
